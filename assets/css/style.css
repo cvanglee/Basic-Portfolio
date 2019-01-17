@@ -1,0 +1,157 @@
+body {
+    background-image: url("../images/regal.png");
+    border-top-color: white;
+    border-top-width: 80px;
+    border-top-style: solid;
+    margin-top: 0;
+}
+
+nav {
+    background-color: white;
+    color: gray;
+    position: absolute;
+    right: 0;
+    top: -80px;
+    text-justify: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* unvisited link */
+a:link {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+a:visited {
+    color:navy;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color:#4aaaa5;
+    text-decoration: none;
+  }
+
+#yourName{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    left: 0;
+    width: auto;
+    height: auto;
+    top: -4.2em;
+    padding: 1em;
+}
+#mainBox {
+    width: 960px;
+    height: auto;
+    position: relative;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px; 
+    box-sizing: border-box;   
+  }
+#heading {
+    width: 900px;
+    /* float: left; */
+    
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom-color:lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    /* padding-left: 20px; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+
+}
+#pBody {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    line-height: 1.5;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    padding-right: 25px;
+}
+#myPic {
+    padding: 25px;
+    float: left;
+}
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 25px;
+    border-top-color:#4aaaa5;
+    border-top-style: solid;
+    border-top-width: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.cform {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    line-height: 1.2;
+    color: darkgray;
+}
+
+.projectName {
+    position: absolute;
+    width: 91%;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 0px;
+    left: 0;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 20px;
+}
+.pImage { 
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin: 25px;
+}
+#box{
+    width: 960px;
+    height: 900px;
+    position: relative;
+    background-color: white;
+    margin-bottom: 40px;
+  }
+  input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  input[type=text], textarea {
+    width:92%;
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.clearfix {
+    overflow-y: auto;
+}
